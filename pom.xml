@@ -178,6 +178,18 @@
             </modules>
         </profile>
         <profile>
+            <id>extras</id>
+            <modules>
+                <module>extras</module>
+            </modules>
+        </profile>
+        <profile>
+            <id>repositories</id>
+            <modules>
+                <module>repositories</module>
+            </modules>
+        </profile>
+        <profile>
             <id>1.5</id>
             <modules>
                 <module>platforms</module>
@@ -285,7 +297,7 @@
             <id>5.0</id>
             <modules>
                 <module>platforms</module>
-		            <module>add-ons</module>
+		        <module>add-ons</module>
             </modules>
         </profile>
         <profile>
@@ -296,15 +308,9 @@
             </modules>
         </profile>
         <profile>
-            <id>extras</id>
+            <id>MNC</id>
             <modules>
-                <module>extras</module>
-            </modules>
-        </profile>
-        <profile>
-            <id>repositories</id>
-            <modules>
-                <module>repositories</module>
+                <module>platforms</module>
             </modules>
         </profile>
     </profiles>
