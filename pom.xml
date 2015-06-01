@@ -133,6 +133,11 @@
         <artifactId>wagon-file</artifactId>
         <version>2.7</version>
       </extension>
+        <extension>
+            <groupId>org.springframework.build</groupId>
+            <artifactId>aws-maven</artifactId>
+            <version>5.0.0.RELEASE</version>
+        </extension>
     </extensions>
     <plugins>
       <plugin>
@@ -288,6 +293,18 @@
             <modules>
                 <module>platforms</module>
                 <module>add-ons</module>
+            </modules>
+        </profile>
+        <profile>
+            <id>extras</id>
+            <modules>
+                <module>extras</module>
+            </modules>
+        </profile>
+        <profile>
+            <id>repositories</id>
+            <modules>
+                <module>repositories</module>
             </modules>
         </profile>
     </profiles>
