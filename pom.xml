@@ -102,9 +102,9 @@
   </mailingLists>
   <distributionManagement>
     <repository>
-      <id>${repo.id}</id>
+      <id>kloudtek-thirdparty</id>
       <name>Android Repository</name>
-      <url>${repo.url}</url>
+      <url>https://intranet.kloudtek.net/nexus/content/repositories/kloudtek-thirdparty/</url>
     </repository>
   </distributionManagement>
 
