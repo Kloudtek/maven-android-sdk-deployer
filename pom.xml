@@ -95,13 +95,7 @@
       <subscribe>http://groups.google.com/group/maven-android-developers</subscribe>
     </mailingList>
   </mailingLists>
-  <distributionManagement>
-    <repository>
-      <id>kloudtek-thirdparty</id>
-      <name>Android Repository</name>
-      <url>https://intranet.kloudtek.net/nexus/content/repositories/kloudtek-thirdparty/</url>
-    </repository>
-  </distributionManagement>
+
 
   <build>
     <pluginManagement>
@@ -305,4 +299,16 @@
             </modules>
         </profile>
     </profiles>
+    <distributionManagement>
+    <repository>
+        <id>kloudtek-thirdparty</id>
+        <name>Kloudtek OSS Releases Repository</name>
+        <url>https://intranet.kloudtek.net/nexus/content/repositories/kloudtek-thirdparty/</url>
+    </repository>
+    <snapshotRepository>
+        <id>kloudtek-thirdparty</id>
+        <name>Kloudtek OSS Snapshots Repository</name>
+        <url>https://intranet.kloudtek.net/nexus/content/repositories/kloudtek-thirdparty/</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
