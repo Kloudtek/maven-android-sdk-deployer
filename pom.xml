@@ -97,7 +97,7 @@
   </mailingLists>
   <distributionManagement>
     <repository>
-      <id>${repo.id}</id>
+      <id>kloudtek-thirdparty</id>
       <name>Android Repository</name>
       <url>${repo.url}</url>
     </repository>
