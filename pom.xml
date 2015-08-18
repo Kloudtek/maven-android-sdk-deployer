@@ -305,10 +305,4 @@
             </modules>
         </profile>
     </profiles>
-    <distributionManagement>
-        <repository>
-            <id>kloudtek-thirdparty</id>
-            <url></url>
-        </repository>
-    </distributionManagement>
 </project>
