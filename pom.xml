@@ -310,10 +310,4 @@
             </modules>
         </profile>
     </profiles>
-    <distributionManagement>
-        <repository>
-            <id>kloudtek-thirdparty</id>
-            <url>${repo.3rdparty.url}</url>
-        </repository>
-    </distributionManagement>
 </project>
