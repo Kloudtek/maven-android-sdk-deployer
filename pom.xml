@@ -99,7 +99,7 @@
     <repository>
       <id>kloudtek-thirdparty</id>
       <name>Android Repository</name>
-      <url>${repo.url}</url>
+      <url>http://localhost:8082/nexus/content/repositories/kloudtek-thirdparty/</url>
     </repository>
   </distributionManagement>
 
